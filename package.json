@@ -1,0 +1,26 @@
+{
+  "name": "mongo-node-drm",
+  "version": "1.0.0",
+  "description": "A simple Document-Object Mapper implemented with NodeJS and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasKleaL/Mongo-Node-DRM.git"
+  },
+  "author": "Lucas Kusman Leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasKleaL/Mongo-Node-DRM/issues"
+  },
+  "homepage": "https://github.com/LucasKleaL/Mongo-Node-DRM#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
