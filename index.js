@@ -3,6 +3,7 @@ const cors = require("cors");
 const mongoose = require("./util/Mongoose");
 const User = require("./model/User");
 const UserController = require("./controller/UserController");
+const NoteController = require("./controller/NoteController");
 
 const PORT = process.env.PORT || 3001;
 
@@ -18,3 +19,4 @@ app.listen(PORT, function() {
 });
 
 const userController = new UserController(app);
+const noteController = new NoteController(app);

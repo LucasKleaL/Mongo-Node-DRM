@@ -4,7 +4,7 @@ const UserSchema = require("../schema/UserSchema");
 class User {
 
     async createUser(username, email, password) {
-        const user = new UserSchema({username: username, email: email, password: password, notes: []})
+        const user = new UserSchema({username: username, email: email, password: password})
         await user.save()
             .then(() => {console.log("New user saved " + user); return true;})
             .catch((error) => {console.error("Error while saving new user " + error); return false})

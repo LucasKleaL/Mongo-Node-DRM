@@ -9,9 +9,6 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String
     },
-    notes: {
-        type: Array
-    }
 });
 
 const User = mongoose.model("User", userSchema);
